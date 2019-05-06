@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Michigan Weightlifting - Results</title>
+    <link rel='shortcut icon' type='image/x-icon' href='static/favicon.ico'/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        html {
+            overflow-y: scroll;
+        }
+        p {
+            font-size: larger;
+        }
+        span {
+            font-size: larger;
+        }
+        a {
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body style="background-color:#FFFAFA">
+
+<!--- Navbar -->
+<nav class="navbar static-top navbar-expand-lg navbar-light" style="background-color:#EEE9E9">
+    <a class="navbar-brand" href="home.html">Michigan Weightlifting</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="home.html">Home</a>
+            <a class="nav-item nav-link" href="roster.html">Roster</a>
+            <a class="nav-item nav-link active" href="results.html">Results</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <ul class="nav navbar-nav ml-auto">
+        <a href="https://www.instagram.com/mibarbell" class="nav-link"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com/mibarbell" class="nav-link"><i class="fab fa-facebook fa-2x"></i></a>
+    </ul>
+</nav>
+
+<!-- INSIDE CONTAINER -->
+<div class="container" style="margin:auto; background-color:#FFFAFA; padding-right:0; padding-left:0;">
+    <!-- MEET RESULTS -->
+    <br>
+    <div class="card shadow" style="border-radius:0; background-color: #00274C;">
+        <div class="card-body">
+            <h1 style="color: #FFCB05;">Meet Results</h1>
+        </div>
+    </div>
+    <br>
+
+    <div class="accordion" id="meetResults">
+        
+        <div class="card" style="border-radius:0;">
+            <div class="card-header" id="heading1">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                        <span>Spartan Open (April 13, 2019)</span>
+                    </button>
+                </h2>
+            </div>
+            <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#meetResults">
+                <div class="card-body table-responsive">
+                    <table class="table table-bordered" style="padding:0; margin:0;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Weight</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Snatch 1</th>
+                                <th scope="col">Snatch 2</th>
+                                <th scope="col">Snatch 3</th>
+                                <th scope="col">C&J 1</th>
+                                <th scope="col">C&J 2</th>
+                                <th scope="col">C&J 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>Brittany McKenzie</td>
+                                <td>F</td>
+                                <td>71</td>
+                                <td>154</td>
+                                
+                                <td class="table-danger">65</td>
+                                
+                                
+                                <td class="table-success">65</td>
+                                
+                                
+                                <td class="table-success">68</td>
+                                
+                                
+                                <td class="table-success">82</td>
+                                
+                                
+                                <td class="table-success">86</td>
+                                
+                                
+                                <td class="table-danger">89</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Derek Lukacs</td>
+                                <td>M</td>
+                                <td>81</td>
+                                <td>177</td>
+                                
+                                <td class="table-success">80</td>
+                                
+                                
+                                <td class="table-danger">83</td>
+                                
+                                
+                                <td class="table-danger">85</td>
+                                
+                                
+                                <td class="table-success">97</td>
+                                
+                                
+                                <td class="table-success">102</td>
+                                
+                                
+                                <td class="table-success">107</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Emily Prostko</td>
+                                <td>F</td>
+                                <td>64</td>
+                                <td>144</td>
+                                
+                                <td class="table-success">65</td>
+                                
+                                
+                                <td class="table-danger">67</td>
+                                
+                                
+                                <td class="table-danger">67</td>
+                                
+                                
+                                <td class="table-success">77</td>
+                                
+                                
+                                <td class="table-danger">79</td>
+                                
+                                
+                                <td class="table-success">79</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Hannah Swirple</td>
+                                <td>F</td>
+                                <td>76</td>
+                                <td>n/a</td>
+                                
+                                <td class="table-danger">70</td>
+                                
+                                
+                                <td class="table-danger">70</td>
+                                
+                                
+                                <td class="table-danger">70</td>
+                                
+                                
+                                <td class="table-success">75</td>
+                                
+                                
+                                <td class="table-success">78</td>
+                                
+                                
+                                <td class="table-success">81</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Hinto Rago</td>
+                                <td>M</td>
+                                <td>96</td>
+                                <td>184</td>
+                                
+                                <td class="table-success">81</td>
+                                
+                                
+                                <td class="table-success">84</td>
+                                
+                                
+                                <td class="table-success">87</td>
+                                
+                                
+                                <td class="table-success">97</td>
+                                
+                                
+                                <td class="table-success">102</td>
+                                
+                                
+                                <td class="table-danger">107</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Jeremiah DeKam</td>
+                                <td>M</td>
+                                <td>81</td>
+                                <td>213</td>
+                                
+                                <td class="table-success">88</td>
+                                
+                                
+                                <td class="table-success">91</td>
+                                
+                                
+                                <td class="table-success">94</td>
+                                
+                                
+                                <td class="table-danger">117</td>
+                                
+                                
+                                <td class="table-danger">119</td>
+                                
+                                
+                                <td class="table-success">119</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Jessica Miletic</td>
+                                <td>F</td>
+                                <td>71</td>
+                                <td>154</td>
+                                
+                                <td class="table-success">68</td>
+                                
+                                
+                                <td class="table-danger">70</td>
+                                
+                                
+                                <td class="table-danger">70</td>
+                                
+                                
+                                <td class="table-success">80</td>
+                                
+                                
+                                <td class="table-success">83</td>
+                                
+                                
+                                <td class="table-success">86</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Julia Wolmer</td>
+                                <td>F</td>
+                                <td>64</td>
+                                <td>107</td>
+                                
+                                <td class="table-success">44</td>
+                                
+                                
+                                <td class="table-success">46</td>
+                                
+                                
+                                <td class="table-success">48</td>
+                                
+                                
+                                <td class="table-success">57</td>
+                                
+                                
+                                <td class="table-success">59</td>
+                                
+                                
+                                <td class="table-danger">61</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Junjie Guo</td>
+                                <td>M</td>
+                                <td>81</td>
+                                <td>187</td>
+                                
+                                <td class="table-success">80</td>
+                                
+                                
+                                <td class="table-success">84</td>
+                                
+                                
+                                <td class="table-success">87</td>
+                                
+                                
+                                <td class="table-danger">100</td>
+                                
+                                
+                                <td class="table-success">100</td>
+                                
+                                
+                                <td class="table-danger">105</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Katherine Wolff</td>
+                                <td>F</td>
+                                <td>71</td>
+                                <td>122</td>
+                                
+                                <td class="table-danger">51</td>
+                                
+                                
+                                <td class="table-success">51</td>
+                                
+                                
+                                <td class="table-success">53</td>
+                                
+                                
+                                <td class="table-success">66</td>
+                                
+                                
+                                <td class="table-success">69</td>
+                                
+                                
+                                <td class="table-danger">72</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Maria Rosala</td>
+                                <td>F</td>
+                                <td>55</td>
+                                <td>136</td>
+                                
+                                <td class="table-success">59</td>
+                                
+                                
+                                <td class="table-danger">61</td>
+                                
+                                
+                                <td class="table-danger">61</td>
+                                
+                                
+                                <td class="table-success">74</td>
+                                
+                                
+                                <td class="table-success">77</td>
+                                
+                                
+                                <td class="table-danger">80</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Samantha Luckham</td>
+                                <td>F</td>
+                                <td>49</td>
+                                <td>103</td>
+                                
+                                <td class="table-success">41</td>
+                                
+                                
+                                <td class="table-success">43</td>
+                                
+                                
+                                <td class="table-success">45</td>
+                                
+                                
+                                <td class="table-danger">56</td>
+                                
+                                
+                                <td class="table-danger">58</td>
+                                
+                                
+                                <td class="table-success">58</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Sean Guo</td>
+                                <td>M</td>
+                                <td>73</td>
+                                <td>195</td>
+                                
+                                <td class="table-success">82</td>
+                                
+                                
+                                <td class="table-success">85</td>
+                                
+                                
+                                <td class="table-success">87</td>
+                                
+                                
+                                <td class="table-success">101</td>
+                                
+                                
+                                <td class="table-success">105</td>
+                                
+                                
+                                <td class="table-success">108</td>
+                                
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" style="border-radius:0;">
+            <div class="card-header" id="heading2">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        <span>CANUSA (January 12-13, 2019)</span>
+                    </button>
+                </h2>
+            </div>
+            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#meetResults">
+                <div class="card-body table-responsive">
+                    <table class="table table-bordered" style="padding:0; margin:0;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Weight</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Snatch 1</th>
+                                <th scope="col">Snatch 2</th>
+                                <th scope="col">Snatch 3</th>
+                                <th scope="col">C&J 1</th>
+                                <th scope="col">C&J 2</th>
+                                <th scope="col">C&J 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>Brittany McKenzie</td>
+                                <td>F</td>
+                                <td>71</td>
+                                <td>136</td>
+                                
+                                <td class="table-success">61</td>
+                                
+                                
+                                <td class="table-danger">63</td>
+                                
+                                
+                                <td class="table-danger">63</td>
+                                
+                                
+                                <td class="table-danger">75</td>
+                                
+                                
+                                <td class="table-danger">75</td>
+                                
+                                
+                                <td class="table-success">75</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>David Sawyers</td>
+                                <td>M</td>
+                                <td>102</td>
+                                <td>294</td>
+                                
+                                <td class="table-success">123</td>
+                                
+                                
+                                <td class="table-success">127</td>
+                                
+                                
+                                <td class="table-danger">131</td>
+                                
+                                
+                                <td class="table-success">155</td>
+                                
+                                
+                                <td class="table-success">161</td>
+                                
+                                
+                                <td class="table-success">167</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Emily Prostko</td>
+                                <td>F</td>
+                                <td>64</td>
+                                <td>141</td>
+                                
+                                <td class="table-success">64</td>
+                                
+                                
+                                <td class="table-danger">66</td>
+                                
+                                
+                                <td class="table-danger">68</td>
+                                
+                                
+                                <td class="table-success">74</td>
+                                
+                                
+                                <td class="table-success">76</td>
+                                
+                                
+                                <td class="table-success">77</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Hannah Swirple</td>
+                                <td>F</td>
+                                <td>76</td>
+                                <td>145</td>
+                                
+                                <td class="table-success">67</td>
+                                
+                                
+                                <td class="table-success">69</td>
+                                
+                                
+                                <td class="table-success">71</td>
+                                
+                                
+                                <td class="table-danger">74</td>
+                                
+                                
+                                <td class="table-success">74</td>
+                                
+                                
+                                <td class="table-danger">77</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Jeremiah DeKam</td>
+                                <td>M</td>
+                                <td>81</td>
+                                <td>200</td>
+                                
+                                <td class="table-success">81</td>
+                                
+                                
+                                <td class="table-success">84</td>
+                                
+                                
+                                <td class="table-success">87</td>
+                                
+                                
+                                <td class="table-success">103</td>
+                                
+                                
+                                <td class="table-success">108</td>
+                                
+                                
+                                <td class="table-success">113</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Jessica Militec</td>
+                                <td>F</td>
+                                <td>71</td>
+                                <td>145</td>
+                                
+                                <td class="table-success">61</td>
+                                
+                                
+                                <td class="table-danger">63</td>
+                                
+                                
+                                <td class="table-success">63</td>
+                                
+                                
+                                <td class="table-success">79</td>
+                                
+                                
+                                <td class="table-success">82</td>
+                                
+                                
+                                <td class="table-danger">85</td>
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td>Samantha Luckham</td>
+                                <td>F</td>
+                                <td>49</td>
+                                <td>102</td>
+                                
+                                <td class="table-success">39</td>
+                                
+                                
+                                <td class="table-success">41</td>
+                                
+                                
+                                <td class="table-success">43</td>
+                                
+                                
+                                <td class="table-success">55</td>
+                                
+                                
+                                <td class="table-success">57</td>
+                                
+                                
+                                <td class="table-success">59</td>
+                                
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <br>
+
+    <!-- HALL OF FAME -->
+    <div class="card shadow" style="border-radius:0; background-color: #00274C;">
+        <div class="card-body">
+            <h1 style="color: #FFCB05;">Hall of Fame</h1>
+        </div>
+    </div>
+    <div class="card-body table-responsive" style="display:inline-block;">
+        <table class="table table-bordered">
+            <caption>Top Three Male / Female Totals by Sinclair Score</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Sinclair</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Weight</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Meet</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>323.7</td>
+                    <td>David Sawyers</td>
+                    <td>102</td>
+                    <td>294 </td>
+                    <td>CANUSA (January 12-13, 2019) </td>
+                </tr>
+                
+                <tr>
+                    <td>258.9</td>
+                    <td>Jeremiah DeKam</td>
+                    <td>81</td>
+                    <td>213 </td>
+                    <td>Spartan Open (April 13, 2019) </td>
+                </tr>
+                
+                <tr>
+                    <td>250.7</td>
+                    <td>Sean Guo</td>
+                    <td>73</td>
+                    <td>195 </td>
+                    <td>Spartan Open (April 13, 2019) </td>
+                </tr>
+                
+                <tr height="10" style="border:0;"></tr>
+                
+                <tr>    
+                    <td>194.8</td>
+                    <td>Maria Rosala</td>
+                    <td>55</td>
+                    <td>136 </td>
+                    <td>Spartan Open (April 13, 2019)</td>
+                </tr>
+                
+                <tr>    
+                    <td>188.6</td>
+                    <td>Brittany McKenzie</td>
+                    <td>71</td>
+                    <td>154 </td>
+                    <td>Spartan Open (April 13, 2019)</td>
+                </tr>
+                
+                <tr>    
+                    <td>188.6</td>
+                    <td>Jessica Miletic</td>
+                    <td>71</td>
+                    <td>154 </td>
+                    <td>Spartan Open (April 13, 2019)</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>
